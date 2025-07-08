@@ -25,10 +25,21 @@ This project demonstrates a real-time reactive system that uses multiple sensors
 - 16x2 LCD Display (Pins 13, 12, 11, 10, 9, 6)
 - Breadboard, Jumper wires, 220-ohm resistors
 
-Output:
+# CIRCUIT DIAGRAM(BEFORE SIMULATION):-
+  ![CIRCUIT DIAGRAM](https://github.com/user-attachments/assets/4525f58b-ee9a-4e6e-8757-72eb639a1854)
+  
+# Output:
  1) When there is motion, the RED LED blinks.
     ![PIR output](https://github.com/user-attachments/assets/a83919b4-e26f-4ae9-b740-35ef2a3ca1c3)
+    
 2) When an object is near the ultrasonic sensor, and warns if too close by blinking the YELLOW LED.
+   
    ![ultrsonic output](https://github.com/user-attachments/assets/402c36b5-b9a2-47bc-9de8-5d3746e15d01)
+   
 3)When gas is detected by the gas sensor system warns by blinking BLUE LED while displaying GAS LEAKED!
+
  ![gas output](https://github.com/user-attachments/assets/38b46f87-0d55-4a21-9c59-cefaf3fb7fa2)
+
+4)When we adjust photoresistor(LDR) sensor the GREEN LED blinks and LCD displays the Light level(%)
+
+  ![photoresistor output](https://github.com/user-attachments/assets/28ab6b6d-144e-4ebd-9fd6-4c2674fb4232)
